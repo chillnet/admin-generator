@@ -45,7 +45,8 @@
                                 </div>
                             </form>
 
-                            <table class="table table-hover table-listing">
+                            <div class="table-responsive">
+                                <table class="table table-hover table-listing">
                                 <thead>
                                     <tr>
 @if(!$withoutBulk)
@@ -150,6 +151,7 @@
                                     </tr>
                                 </tbody>
                             </table>
+                            </div>
 
                             <div class="row" v-if="pagination.state.total > 0">
                                 <div class="col-sm">
