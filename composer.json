@@ -1,5 +1,5 @@
 {
-    "name": "brackets/admin-generator",
+    "name": "chillnet/admin-generator",
     "description": "Laravel 8 CRUD generator for brackets/craftable",
     "keywords": [
         "generator",
@@ -42,7 +42,19 @@
             "email": "richard.dominik@brackets.sk",
             "homepage": "https://www.brackets.sk",
             "role": "Developer"
-        }
+        },
+        {
+            "name": "Conrad van Straaten",
+            "email": "conrad@vanstraaten.co.za",
+            "homepage": "https://www.chillnet.co.za",
+            "role": "Developer"
+	},
+        {
+            "name": "Roland Rieseberg",
+            "email": "roland@rieseberg.me",
+            "homepage": "https://www.chillnet.co.za",
+            "role": "Developer"
+	}
     ],
     "require": {
         "php": "^7.2.5|^7.3.0|^8.0",
@@ -74,7 +86,7 @@
             ]
         },
         "branch-alias": {
-            "dev-master": "6.0-dev"
+            "dev-master": "1.0"
         }
     }
 }
